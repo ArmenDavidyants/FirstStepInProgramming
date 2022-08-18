@@ -1,4 +1,5 @@
-﻿string? inputlineN = Console.ReadLine(); 
+﻿// выводит куб чисел последовательности
+string? inputlineN = Console.ReadLine(); 
 if (inputlineN != null)
 {
     int numberN = int.Parse(inputlineN);
