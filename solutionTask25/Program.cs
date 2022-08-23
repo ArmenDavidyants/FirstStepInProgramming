@@ -20,10 +20,16 @@ numberC=(int)Math.Pow(numberA,numberB);
 return numberC;
  }
  
+
+
+void Print()
+{
+    Console.WriteLine(numberC);
+}
+
 Read();
 Conculate();
-Console.WriteLine(numberC);
- 
+Print();
  
 
 
