@@ -9,7 +9,7 @@ void VariantNaive()
         Console.Write(numberSintezator.Next(0,7)+ ",");
         i++;
     }
-    Console.Write(numberSintezator.Next(0,2));
+    Console.Write(numberSintezator.Next(0,7));
     Console.Write("]");
 }
 VariantNaive();
