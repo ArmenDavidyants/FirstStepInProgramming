@@ -23,11 +23,11 @@ void CanculateTask(int [] outArray)
  {  
  if(outArray[i]>0)
  {
-    positivSum++;
+    positivSum+=outArray[i];
  }
  else
  {
-    negativSum++;
+    negativSum+=outArray[i];
  }
  i++;
  }
